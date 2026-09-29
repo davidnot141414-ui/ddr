@@ -1,0 +1,29 @@
+# Зависимости (библиотеки)
+node_modules/
+jspm_packages/
+web_modules/
+
+# Конфиденциальные данные (ключи, пароли, конфиги)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+config/secure.json
+
+# Временные файлы и системный мусор
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Thumbs.db
+*.tmp
+*.bak
+*.swp
+
+# Логи и отчеты об ошибках
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
